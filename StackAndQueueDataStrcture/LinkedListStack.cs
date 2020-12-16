@@ -12,6 +12,10 @@ namespace StackAndQueueDataStrcture
             this.top = null;
         }
 
+        /// <summary>
+        /// Method to push elements in the stack
+        /// </summary>
+        /// <param name="value"></param>
         internal void Push(int value)
         {
             Node node = new Node(value);
@@ -27,6 +31,9 @@ namespace StackAndQueueDataStrcture
             Console.WriteLine("{0} pushed to the Stack", value);
         }
 
+        /// <summary>
+        /// Method to return top elements of the stack
+        /// </summary>
         internal void Peek()
         {
             if (this.top == null)
