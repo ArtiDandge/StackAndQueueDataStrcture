@@ -15,6 +15,8 @@ namespace StackAndQueueDataStrcture
             stack.Display();
             Console.WriteLine("\n");
             stack.Peek();
+            stack.IsEmpty();
+            stack.Display();
         }
     }
 }
