@@ -32,6 +32,21 @@ namespace StackAndQueueDataStrcture
         }
 
         /// <summary>
+        /// Method to DeQueue Queue elements
+        /// </summary>
+        internal void Dequeue()
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue empty");
+            }
+            else
+            {
+                Console.WriteLine("{0} Dequeued for the Queue ", head.data);
+                head = head.next;               
+            }
+        }
+        /// <summary>
         /// Method to display Queue 
         /// </summary>
         internal void Display()
